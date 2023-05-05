@@ -1,4 +1,3 @@
-/*Reset CSS Line*/
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +14,6 @@ body {
     justify-content: center;
 }
 
-/*maindiv styling*/
 .maindiv {
     margin: 4rem;
     background: rgba(8, 232, 240, 0.966);
@@ -24,19 +22,16 @@ body {
     box-shadow: 2px 5px 20px #2323235e;
 }
 
-/*styling main headline of the website*/
 .innerdiv h1 {
     margin: 0.7rem 0 0.4rem;
     color: red;
 }
 
-/*styling the youtube logo image in the headline*/
 .innerdiv h1 img {
     height: 2rem;
     margin-right: 0.5rem;
 }
 
-/*styling the description of the website*/
 .innerdiv p {
     font-size: 1.2rem;
     color: grey;
@@ -44,7 +39,6 @@ body {
 
 }
 
-/*styling the each card*/
 .eachdiv {
     display: inline-block;
     width: 23.5%;
@@ -57,26 +51,22 @@ body {
     transition: 0.4s;
 }
 
-/*card Hover State*/
 .eachdiv:hover {
     transform: scale(1.03);
     box-shadow: 2px 6px 10px #2f2f2f69;
 }
 
-/*styling the card images*/
 .eachdiv img {
     width: 100%;
     margin-bottom: 0.8rem;
     border-radius: 1rem;
 }
 
-/*styling card title*/
 .eachdiv h3 {
     color: #E91E63;
     margin-bottom: 0.5rem;
 }
 
-/*styling card description*/
 .eachdiv p {
     font-size: 0.8rem;
     color: #969696;
@@ -92,11 +82,7 @@ body {
     cursor: pointer;
 }
 
-/*Media Query Part 
-For responsiveness of the website*/
 
-/*Under 1000px styling
-For medium screen devices*/
 @media only screen and (max-width: 1000px) {
     .maindiv {
         margin: 3rem;
@@ -107,8 +93,6 @@ For medium screen devices*/
     }
 }
 
-/*Under 600px styling 
-For small devices*/
 @media only screen and (max-width: 600px) {
     .maindiv {
         margin: 2rem;
@@ -120,5 +104,3 @@ For small devices*/
     }
 }
 
-/*Note : I have used 1000px and 600px instead of 768px and 500px
-Styling over🙂 */
